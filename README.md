@@ -27,12 +27,11 @@ Users should be able to:
 
 ### Screenshot
 
-/images/screenshot.png
+images/screenshot.png
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [https://d8701a.github.io/apparel_store/]
 
 ## My process
 - I started with a desktop version first. I decided to use Flexbox for a responsive layout, but I figured the two columns (the one with the text and another one containing the image)
