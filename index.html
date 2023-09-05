@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&family=Outfit:wght@400;700&display=swap" rel="stylesheet">
+  
+  <title>Frontend Mentor | Base Apparel coming soon page</title>
+
+ </head>
+<body>
+  <main class="hero">
+    <div class="logo_mobile hidden"><img src="/images/logo.svg" alt="Base apparel circle logo"></div>
+    
+    <section class="announcement">
+
+      <div class="announcement__content">
+        <div class="logo_desktop"><img src="/images/logo.svg" alt="Base apparel circle logo"></div>
+        <h1><span class="colorized-text">WE'RE</span> <br>COMING <br> SOON</h1>
+        <p>Hello fellow shoppers! We're currently building our new fashion store. Add your email below to stay up-to-date
+          with announcements and our launch deals.</p>
+
+        <form autocomplete="off">
+          <div class="email__form">
+          <input type="email" id="email" name="email" placeholder="Email Address" required>
+
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon__error hidden" width="24" height="24"><g fill="none" fill-rule="evenodd"><circle cx="12" cy="12" r="12" fill="#F96464"/><path fill="#FFF" fill-rule="nonzero" d="M13.256 6v9.056h-2V6h2zm-.944 12.464c-.384 0-.699-.104-.944-.312a1.027 1.027 0 0 1-.368-.824c0-.33.125-.608.376-.832.25-.224.563-.336.936-.336.373 0 .68.112.92.336.24.224.36.501.36.832 0 .341-.117.616-.352.824-.235.208-.544.312-.928.312z"/></g></svg>
+
+          <button type="submit" class="btn"><svg xmlns="http://www.w3.org/2000/svg" height="1.4em"
+              viewBox="0 0 320 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+              <style>
+                svg {
+                  fill: #ffffff
+                }
+              </style>
+              <path
+                d="M310.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 192c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L242.7 256 73.4 86.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l192 192z" />
+            </svg></button>
+
+            <p id="email__error" class="hidden">Please provide a valid email</p>
+            <p id="email__success" class="hidden">Thank you for your submit!</p>
+          </div>
+        </form>
+      </div>
+    </section>
+  
+    <section class="image">
+      <img src="/images/hero-desktop.jpg" class="hero-desktop" alt="A girl in an orange blouse">
+      <img src="/images/hero-mobile.jpg" class="hero-mobile hidden" alt="A girl in an orange blouse">
+    </section>
+  </main>
+
+  <footer>
+  <p class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="#">Dina</a>.
+  </p></footer>
+  
+  <script src="script.js"></script>
+  </body>
+  
+  </html>
+
