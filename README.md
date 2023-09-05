@@ -27,7 +27,7 @@ Users should be able to:
 
 ### Screenshot
 
-images/screenshot.png
+apparel_store/images/screenshot.png
 
 ### Links
 
