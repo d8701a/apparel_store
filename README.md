@@ -51,7 +51,6 @@ To limit the whole page width, I set the main section to max-width: 1920px so it
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-- CSS Grid
 - Javascript (vanilla)
 
 ### What I learned
