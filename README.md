@@ -27,7 +27,7 @@ Users should be able to:
 
 ### Screenshot
 
-https://github.com/d8701a/apparel_store/blob/main/images/screenshot.png
+![](images/screenshot.png)
 
 ### Links
 
